@@ -10,7 +10,7 @@ def wordrepeater():
         ncw.input_text()
         if ncw.text == "You wrote: cuss words":
             print("Please enter your text again.")
-            continue  # Restart the loop to prompt for input again
+            continue 
         number = int(input("Enter a number of repeats: "))  
         for i in range(number):  
             print(i + 1, ncw.text)  
